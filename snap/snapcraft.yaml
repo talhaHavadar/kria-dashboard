@@ -41,6 +41,7 @@ apps:
       - hardware-observe
     environment:
       PYTHONPATH: $PYTHONPATH:$SNAP/usr/lib/python3/dist-packages:$SNAP/usr/lib/python3/site-packages
+      LD_LIBRARY_PATH: $LD_LIBRARY_PATH:$SNAP/usr/lib
     command: bin/kria-dashboard-snap.sh
 
   service:
@@ -51,4 +52,5 @@ apps:
       - hardware-observe
     environment:
       PYTHONPATH: $PYTHONPATH:$SNAP/usr/lib/python3/dist-packages:$SNAP/usr/lib/python3/site-packages
+      LD_LIBRARY_PATH: $LD_LIBRARY_PATH:$SNAP/usr/lib
     command: bin/kria-dashboard-snap.sh
