@@ -1,6 +1,6 @@
 name: kria-dashboard
 base: core22
-version: "0.1"
+version: "0.2"
 summary: Dashboard tool which provides system stat information for Kria SOM
 description: |
   kria-dashboard is a utility snap that provides information about the 
